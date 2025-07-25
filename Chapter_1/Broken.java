@@ -1,3 +1,5 @@
+package Chapter_1;
+
 public class Broken {
 
     // public static void firstError() {

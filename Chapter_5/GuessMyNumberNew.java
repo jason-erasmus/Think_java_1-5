@@ -1,7 +1,9 @@
+package Chapter_5;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessMyNumber {
+public class GuessMyNumberNew {
 
     public static void main(String[] args) {
         // pick a random number

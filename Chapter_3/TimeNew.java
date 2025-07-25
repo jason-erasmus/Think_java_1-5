@@ -1,6 +1,8 @@
+package Chapter_3;
+
 import java.util.Scanner;
 
-public class Time {
+public class TimeNew {
     public static void main(String[] args) {
         int SECONDS_PER_MIN = 60;
         int SECONDS_PER_HOUR = 3600;

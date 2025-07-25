@@ -1,4 +1,6 @@
-public class Date {
+package Chapter_4;
+
+public class DateNew {
 
     public static void printAmerican(String day, int date, String month, int year) {
         System.out.println("American Format: " + day + ", " + month + " " + date + ", " + year);
