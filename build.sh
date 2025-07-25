@@ -21,7 +21,12 @@ cd $CLONE_DIR
 echo "Building Docker image..."
 docker build -t think-java
 
+<<<<<<< HEAD
 echo "Launching Think Java..."
 docker run -it think-java
+=======
+echo "Launching Think Java"
+docker docker run --rm "$DOCKER_IMAGE"
+>>>>>>> c9c863e (testing)
 
 
