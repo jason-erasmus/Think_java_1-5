@@ -10,7 +10,7 @@ if (-not (Get-Command docker -ErrorAction SilentlyContinue)) {
 Write-Host "Docker is installed. Continuing build..."
 
 $REPO_URL = "https://github.com/jason-erasmus/java_binarytree.git"
-$CLONE_DIR = "app-temp"
+$CLONE_DIR = "Think_java_1-5"
 
 Write-Host "Cloning the repository..."
 if (Test-Path $CLONE_DIR) {
@@ -21,7 +21,7 @@ git clone $REPO_URL $CLONE_DIR
 Set-Location $CLONE_DIR
 
 Write-Host "Building Docker image..."
-docker build -t binarytree-app .
+docker build -t think-java
 
-Write-Host "Launching Java Binary Tree..."
-docker run --rm binarytree-app
+Write-Host "Launching Think Java..."
+docker run -it think-java
